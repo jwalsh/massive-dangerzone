@@ -1,1 +1,7 @@
-package.json
+{
+  "name": "massive-dangerzone",
+  "version": "0.0.0",
+  "main": "['src/massive-dangerzone.js']",
+  "dependencies": {
+  },
+}
