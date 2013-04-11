@@ -1,0 +1,5 @@
+{
+  "name": "massive-dangerzone",
+  "version": "0.0.1",
+  "main": "['src/massive-dangerzone.js']"
+}
