@@ -1,14 +1,26 @@
 {
-  "name": "jquery-plugin",
-  "version": "0.0.0-ignored",
-  "engines": {
-    "node": ">= 0.8.0"
-  },
+  "name": "massive-dangerzone",
+  "version": "0.0.0",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt",
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "main": "['src/massive-dangerzone.js']",
   "scripts": {
     "test": "grunt qunit"
   },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "jquery": "~1.9.1"
+  },
   "devDependencies": {
-    "grunt-contrib-jshint": "~0.1.1",
+    "qunit": "~1.11.0",
+    "grunt-contrib-jshint": "~0.4.3",
     "grunt-contrib-qunit": "~0.1.1",
     "grunt-contrib-concat": "~0.1.2",
     "grunt-contrib-uglify": "~0.1.1",
